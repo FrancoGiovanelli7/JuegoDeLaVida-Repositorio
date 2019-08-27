@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <script type="text/javascript" src="./js/jquery-2.1.1.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script type="text/javascript" src="./js/calculosVitales.js"></script>
+        <script type="text/javascript" src="./js/controlJS.js"></script>
+        <link href="./css/CssJuegoDeLaVida.css" rel="stylesheet" type="text/css" />
+        <title>Juego de la vida en Javascript</title>
+    </head>
+
+    <body>
+     <h1>Juego de la vida</h1>
+        <div id="parametros">
+            <label for="renglones">Ancho:</label>
+            <input id="renglones" value="20">
+            <label for="columnas">Alto:</label>
+            <input id="columnas" value="20">
+            <label for="tamanio">Tama&ntilde;o de las c&eacute;lulas:</label>
+            <input id="tamanio" value="20">
+            <label for="porcentaje">Vida inicial:</label>
+            <input id="porcentaje" value="0.3">
+        </div>
+
+      
+       
+      
+    <div id="controles">
+            
+            <ul>
+                <li> <a  accesskey="1" class="iniciar"><font color="white">Comenzar tiempo</font></a></li>
+                <li> <a  accesskey="2" class="detener"><font color="white">Pausar tiempo</font></a></li>
+                <li> <a  accesskey="3" class="tick"><font color="white">De a una generacion</font></a></li>
+                <li> <a   accesskey="4"class="reiniciar"><font color="white">Reiniciar el Universo</font></a></li>
+                
+            </ul>
+        </div>
+
+        <div id="informacion">
+            <p class="informacion">Generaci&oacute;n: 0</p>
+        </div>
+
+
+           
+      <div class="border border-danger" id="expli"><strong>Instructivo de utilización de teclas</strong>
+        
+        <div id="teclas" class="border border-danger">
+         <strong>ALT + 1 &rarr; Comenzar tiempo    </strong><br>
+         <strong>ALT + 2 &rarr; Pausar tiempo </strong><br>
+         <strong>ALT + 3 &rarr; De a una generacion</strong><br>
+         <strong>ALT + 4 &rarr; Reiniciar el Universo</strong> <br>
+         <strong>CTRL + R  &rarr;Reseteo completo</strong>
+         
+        </div>
+        
+      </div>
+
+
+        <div id="dibujo">
+            <canvas id="mapa" width="100" height="100" style="border: 6px solid #dc3545;">
+            </canvas>
+        </div>
+        <div id="contacto">
+            <p> Franco Giovanelli | Francogiovanelli7@gmail.com | Analista de Sistemas | San Nicolas de los Arroyos</p>
+        </div> 
+    </body>
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</html>
