@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+.habilitado{
+        color: #000
+}
+.deshabilitado{
+        color:#999999;
+}
+*/
+
+body {
+    font-family: "Copperplate Light", "Copperplate Gothic Light", serif;
+    background-color: rgb(2, 2, 2);
+  }
+
+  h1{ 
+    color: white;
+    text-align: center;
+    font-size: 5em;
+  }
+
+p{
+
+color: #ededed;
+
+}
+
+*{
+    margin:auto;
+    text-align:center;
+    /*background-color: #ededed;*/
+}
+
+html{
+    background-color: #ededed;
+}
+
+#controles{
+    /*    margin: auto;
+        text-align: center;*/
+
+    clear:both;
+    float:left;
+    overflow:hidden;
+    width:100%;
+    margin-bottom: 10px;
+}
+
+#informacion{
+    margin: 10px;
+}
+
+
+#parametros{
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 15px;
+}
+#renglones{width: 50px;}
+#columnas{width: 50px;}
+#tamanio{ width: 50px; }
+#porcentaje{width: 50px;}
+
+input{
+
+    color: #dc3545;
+}
+
+
+ul{
+    /*    list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        margin: auto;
+        text-align: center;*/
+
+    float:left;
+    left:50%;
+    list-style-type:none;
+    margin:0 auto;
+    padding:0;
+    position:relative;
+}
+
+li{
+    /*    border: 1px solid black;
+        margin-top: 10px;
+        width: 100px;
+        background-color: #99ccff;*/
+    float: left;
+
+    float:left;
+    position:relative;
+    right:50%;
+}
+
+a {
+    display: block;
+    border: 2px solid rgb(100, 5, 5);
+    margin-top: 10px;
+    width: 130px;
+    text-decoration: none;
+    background-color: #dc3545;
+    border-radius: 6px;
+    font-size: 18px;
+    color: white;
+}
+li{
+
+    margin: 0 2px 0 2px;
+
+}
+
+#expli {
+    position: absolute;
+  
+    left: 0px;
+    z-index: 10;
+    margin: 5px;
+    font-size: 15px;
+    color: white;
+   
+  }
+
+  #teclas{
+text-align: left;
+
+  }
+
+table{
+    margin:auto;
+    padding:0;
+    border-spacing:0;
+    margin-top:100px;
+    border-collapse:collapse;
+}
+
+td.celula{
+    width: 20px;
+    height: 20px;
+    margin:0;
+    padding:0;
+    background-color: rgb(43, 43, 43);
+}
+
+td.viva{
+    background-color:rgb(219, 0, 0);
+    
+}
+
+td.muerta{
+    background-color: rgb(43, 43, 43);
+    
+}
